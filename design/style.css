@@ -112,3 +112,35 @@ ul li a{
     
   
 }
+
+
+.hero-title h2{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.hero-title p{
+    font-size: 1.4rem;
+    color:rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+
+
+
+.hero-btn{
+    padding: 1.5rem 3.9rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 10px;
+
+
+}
+.hero-btn:hover{
+    cursor: pointer;
+}
+
