@@ -75,7 +75,7 @@ ul li a{
 
  /** hero section is start  */
 #hero-section{
-background-image: url('/image/banner.jpg');
+background-image: url('//image/banner.jpg');
 height: 90vh;
 
 }
