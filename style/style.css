@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/** common class  */
+.bg-btns{
+    background-color: #1D4ED8;
+}
+
+.fff{
+    color:#FFFFFF;
+}
+
+.black{
+    color:#0D1B2A;
+}
+
+.blue {
+    color:#2563EB;
+}
+
+.pp{
+    color:#575757;
+}
+
+
+
+/*todo   :               lets start our project :        */
+
+/* nav section :  */
+.nav-section {
+    /* border: 1px solid red; */
+
+}
+
+/* nav content :  */
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(3, 1fr); */
+    padding: 1.5rem 0;
+    align-items: center;
+    
+    }
+
+
+.nav-bar-container ul{
+    display: flex;
+    gap:1.5rem;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+      font-size: 1rem;
+    font-weight: 400;
+    color:#575757;
+}
+
+#nav-btn{
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 12px;
+}
+#nav-btn:hover{
+    cursor: pointer;
+}
+/* nav section is end   */
+
+
