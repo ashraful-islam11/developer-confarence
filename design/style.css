@@ -26,6 +26,23 @@
     color:#575757;
 }
 
+.speaker-skil {
+    color:#2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+.speaker-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:#0D1B2A ;
+
+}
+
+.speaker-dg{
+    font-size: 0.9rem;
+    color:#575757;
+}
+
 
 
 /*todo   :               lets start our project :        */
@@ -143,4 +160,55 @@ ul li a{
 .hero-btn:hover{
     cursor: pointer;
 }
+
+/* hero section is end :  */
+
+
+/** Meet the speaker section  is  start : */
+
+/* speakers-section */
+.speakers-section{
+    border:1px solid red;
+    padding:5rem 4% 8.5rem
+}
+
+.speaker-title{
+    display: flex;
+    justify-content: center;
+}
+.speaker-title h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000102;
+}
+
+/* speaker-container:  */
+.speakers-container{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2rem;
+    padding:0 3.5rem;
+
+}
+
+.speaker-card{
+    background-color:#FFFFFF;
+    border:1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.speaker-card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius:12px 12px 0 0  ;
+}
+
+.speaker-info{
+    padding:1.5rem;
+}
+.speaker-info h2 {
+    margin: 0.5rem 0;
+}
+
 
