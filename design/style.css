@@ -43,6 +43,24 @@
     color:#575757;
 }
 
+.c-t-p{
+    font-size: 13px;
+    font-weight: 700;
+    color: #888888;
+}
+.c-t-l-p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+.c-t-h{
+    
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #0D1B2A; 
+    margin: 8px 0 4px 0 ;
+}
+
 
 
 /*todo  :               lets start our project :        */
@@ -87,6 +105,8 @@ ul li a{
 #nav-btn:hover{
     cursor: pointer;
 }
+
+
 /* nav section is end   */
 
 
@@ -211,4 +231,194 @@ ul li a{
     margin: 0.5rem 0;
 }
 
+/* speaker section is end   */
 
+/** secure-section is start  */
+
+.secure-section{
+    padding: 0 4% 3.1rem;
+}
+
+/* secure content :  */
+.secure-content{
+    /* border: 1px solid red; */
+    padding: 0 4.5% 6%;
+}
+
+/* secure-title :  */
+.secure-title {
+    display: grid;
+    justify-content: center;
+    gap:12px;
+
+}
+.secure-title h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0D1B2A;
+    text-align: center;
+}
+.secure-title p{
+    color:#575757;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.spot-card-container{
+    /* border: 1px solid blue; */
+    /* padding-top: 3rem; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+    padding:3rem 5rem 0;
+
+}
+
+.spot-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 13px;
+    padding:2rem;
+    background-color: #FFFFFF;
+}
+
+.spot-tilte{
+    
+
+}
+.spot-tilte p{
+    font-size: 13px;
+    font-weight: 700;
+    color: #888888;
+}
+.spot-tilte h2 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #0D1B2A; 
+    margin: 8px 0 4px 0 ;
+}
+
+.spot-desc{
+    padding: 0 0 0 1rem;
+}
+.li::marker{
+    color: #2563EB;
+}
+
+.li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 10px 0;
+}
+
+/*  1st spot card btn:  */
+.spot-btns{
+    margin:20px 0;
+    
+
+}
+.spot-standard-btn{
+   
+    font-size: 0.9rem;
+    color: #2563EB;
+    padding:11px 80px;
+    font-weight: 600;
+    width:100%;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.spot-standard-btn:hover{
+    cursor:pointer;
+}
+
+
+/* 2nd card :  */
+#spot-pro{
+    border:1px solid #0D1B2A;
+    border-radius: 12px;
+    background-color: #0D1B2A;
+}
+
+#spot-title h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color:#FFFFFF;
+    margin: 8px 0 4px 0;
+
+}
+#spot-title .person{
+    color: #fff;
+    opacity: 50%;
+
+}
+
+#spot-description ul li{
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 80%;
+    margin:10px 0;
+}
+
+#spot-description{
+    padding: 0 0 0 1rem;
+}
+
+
+#spot-description ul li::marker {
+    color:#60A5FA;
+}
+
+
+/* 2nd card button :  */
+.spot-pro-btn{
+    margin: 20px 0;
+}
+
+.get-pro{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 11px 80px;
+    width: 100%;
+    border:1px solid #2563EB;
+    border-radius: 0.5rem;
+    background-color: #2563EB;
+}
+
+.get-pro:hover{
+    cursor:pointer;
+}
+
+
+/* 3rd cars start :  */
+#spot-team-card{
+    border: 1px solid #E5E7EB;
+    background-color: #F8F9FB;
+}
+
+.spot-team-title{
+
+}
+
+ 
+/* card -3  spot-team-btn */
+.spot-team-btn{
+    margin: 20px 0;
+}
+
+#team-btn{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1B2A;
+    padding: 11px 80px;
+    border: 1px solid #0D1B2A;
+    border-radius: 8px;
+    width:100%;
+
+
+}
+#team-btn:hover{
+    cursor: pointer;
+}
