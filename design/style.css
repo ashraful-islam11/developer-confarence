@@ -322,12 +322,13 @@ ul li a{
    
     font-size: 0.9rem;
     color: #2563EB;
-    padding:11px 0;
+    padding:11px 90px;
     font-weight: 600;
     width:100%;
     border: 1px solid #2563EB;
     border-radius: 8px;
     background-color: #FFFFFF;
+
 }
 .spot-standard-btn:hover{
     cursor:pointer;
