@@ -424,3 +424,147 @@ ul li a{
 #team-btn:hover{
     cursor: pointer;
 }
+
+
+/* footer section :  */
+#footer-section{
+    background-color: #0D1B2A;
+    padding: 55px 60px 65px;
+}
+
+/* footer top:  */
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* socile-icon container :  */
+.social-icon {
+    display: flex;
+  align-items: center;
+  gap: 18px;
+  border-right: 1px solid #1e293b; /* আইকন এবং লিংকের মাঝের বর্ডার */
+  padding-right: 24px;
+    
+}
+.social-icon a{
+  color: #94a3b8;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+
+
+/* Footer Component Styles */
+.main-footer {
+  background-color: #0D1B2A; /* ইমেজের সাথে মিলানো ডার্ক ব্লু */
+  color: #94a3b8;
+  padding: 24px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Top Row Styles */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Logo Design */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .logo-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.logo-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Right Side Links & Icons */
+.footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-right: 1px solid #1e293b; /* আইকন এবং লিংকের মাঝের বর্ডার */
+  padding-right: 24px;
+}
+
+.social-icons a {
+  color: #94a3b8;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.policy-link {
+  color: #FFFFFF;
+  opacity: 40%;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+
+.policy-link:hover {
+  color: #ffffff;
+}
+
+/* Divider Line */
+.footer-divider {
+  border: 0;
+  height: 1px;
+  background-color: #1e293b;
+  opacity: 0.6;
+  margin: 8px 0;
+}
+
+/* Bottom Copyright Section */
+.footer-bottom {
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 40%;
+}
+
+
