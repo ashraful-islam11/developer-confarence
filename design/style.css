@@ -429,11 +429,11 @@ ul li a{
 /** faq-section is start */
 .faq-section {
     padding: 5rem 4% 7rem;
-    background-color: #F8F9FB; /* টিম কার্ডের ব্যাকগ্রাউন্ডের সাথে ম্যাচিং */
+    background-color: #F8F9FB; 
 }
 
 .faq-content {
-    max-width: 900px; /* FAQ পড়ার সুবিধার জন্য একটু ন্যারো লেআউট */
+    max-width: 900px; 
     margin: 0 auto;
 }
 
@@ -448,7 +448,7 @@ ul li a{
 .faq-title h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #0D1B2A; /* আপনার মেইন ডার্ক ব্লু */
+    color: #0D1B2A; 
     text-align: center;
 }
 
@@ -468,13 +468,13 @@ ul li a{
 .faq-item {
     background-color: #FFFFFF;
     border: 1px solid #E5E7EB;
-    border-radius: 12px; /* আপনার স্পিকার ও স্পট কার্ডের থিম রেডিয়াস */
+    border-radius: 12px; 
     padding: 1.5rem 2rem;
     transition: all 0.3s ease;
 }
 
 .faq-item:hover {
-    border-color: #2563EB; /* হোভার করলে আপনার ব্র্যান্ড ব্লু বর্ডার শো করবে */
+    border-color: #2563EB; 
     box-shadow: 0 4px 20px rgba(37, 99, 235, 0.05);
 }
 
@@ -492,7 +492,7 @@ ul li a{
 }
 
 .faq-question i {
-    color: #2563EB; /* ফন্ট অসাম ডাউন অ্যারো আইকন */
+    color: #2563EB; 
     font-size: 1.1rem;
     transition: transform 0.3s ease;
 }
@@ -510,23 +510,26 @@ ul li a{
 }
 
 /* footer section :  */
+
 #footer-section{
     background-color: #0D1B2A;
     padding: 55px 60px 65px;
 }
 
 /* footer top:  */
+
 .footer-top{
     display: flex;
     justify-content: space-around;
 }
 
 /* socile-icon container :  */
+
 .social-icon {
     display: flex;
   align-items: center;
   gap: 18px;
-  border-right: 1px solid #1e293b; /* আইকন এবং লিংকের মাঝের বর্ডার */
+  border-right: 1px solid #1e293b;
   padding-right: 24px;
     
 }
@@ -539,9 +542,9 @@ ul li a{
 
 
 
-/* Footer Component Styles */
+/* Footer Styles */
 .main-footer {
-  background-color: #0D1B2A; /* ইমেজের সাথে মিলানো ডার্ক ব্লু */
+  background-color: #0D1B2A; 
   color: #94a3b8;
   padding: 24px 40px;
   width: 100%;
@@ -573,19 +576,7 @@ ul li a{
   gap: 10px;
 }
 
-/* .logo-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  
-  color: #ffffff;
-  font-family: monospace;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+
 
 .logo-text {
   color: #ffffff;
@@ -606,7 +597,7 @@ ul li a{
   display: flex;
   align-items: center;
   gap: 18px;
-  border-right: 1px solid #1e293b; /* আইকন এবং লিংকের মাঝের বর্ডার */
+  border-right: 1px solid #1e293b;
   padding-right: 24px;
 }
 
@@ -633,7 +624,7 @@ ul li a{
   color: #ffffff;
 }
 
-/* Divider Line */
+
 .footer-divider {
   border: 0;
   height: 1px;
