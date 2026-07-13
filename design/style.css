@@ -315,8 +315,7 @@ ul li a{
 /*  1st spot card btn:  */
 .spot-btns{
     margin:20px 0;
-    padding: 11px 70px;
-    white-space: nowrap;
+   
     
 
 }
@@ -330,6 +329,7 @@ ul li a{
     border: 1px solid #2563EB;
     border-radius: 8px;
     background-color: #FFFFFF;
+    white-space: nowrap;
 
 }
 .spot-standard-btn:hover{
