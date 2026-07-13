@@ -315,6 +315,8 @@ ul li a{
 /*  1st spot card btn:  */
 .spot-btns{
     margin:20px 0;
+    padding: 11px 70px;
+    white-space: nowrap;
     
 
 }
